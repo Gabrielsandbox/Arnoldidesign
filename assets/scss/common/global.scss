@@ -58,13 +58,13 @@ body {
     }
 }
 .btn-global-large {
-    
+
 }
 .btn-global-small {
     padding: 11px 26px;
 }
 .btn-yellow {
-    background: $yellow;
+    background: #71a029;
 }
 
 .btn-global-hover {
@@ -78,7 +78,7 @@ body {
         height: 100%;
         top: 0;
         left: 0;
-        background: $yellow;
+        background: #71a029;
     }
     &:hover {
         &:after {
@@ -94,7 +94,7 @@ body {
 }
 .btn-global-border-hover {
     &:hover {
-        border :2px solid $yellow;
+        border :2px solid #71a029;
     }
 }
 
@@ -192,7 +192,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: bold;
-    background: $yellow;
+    background: #71a029;
     &:hover {
         color: #fff;
     }
@@ -211,7 +211,7 @@ body {
 .title {
     &:hover {
         a {
-            color: $yellow;
+            color: #71a029;
         }
     }
 }
@@ -243,7 +243,7 @@ body {
 }
 
 .title-yellow {
-    color: $yellow;
+    color: #71a029;
 }
 
 .title-regular {
@@ -285,7 +285,7 @@ body {
             content: "";
             width: 60px;
             height: 2px;
-            background: $yellow;
+            background: #71a029;
             bottom: 0px;
             left: 50%;
             @include transform(translateX(-50%));
@@ -311,7 +311,7 @@ body {
             content: "";
             width: 60px;
             height: 2px;
-            background: $yellow;
+            background: #71a029;
             bottom: 0px;
             left: 50%;
             @include transform(translateX(-50%));
@@ -346,7 +346,7 @@ body {
             content: "";
             width: 60px;
             height: 3px;
-            background: $yellow;
+            background: #71a029;
             bottom: 0px;
             left: 0;
         }
@@ -572,7 +572,7 @@ body {
     left: 0;
     height: 85px;
     width: 100%;
-    background: $yellow;
+    background: #71a029;
     // visibility: hidden;
     opacity: 0;
     top: auto;
@@ -622,7 +622,7 @@ body {
             margin-right: 0px;
         }
         &:first-child {
-            border: 2px solid $yellow;
+            border: 2px solid #71a029;
         }
     }
 }
@@ -637,7 +637,7 @@ body {
     color: $grey-regular;
 }
 .font-color-yellow {
-    color: $yellow;
+    color: #71a029;
 }
 
 .totop {
@@ -674,7 +674,7 @@ body {
         font-weight: 700;
     }
   }
-  
+
   #back-to-top:hover {
     background: black no-repeat center;
   }
@@ -741,7 +741,7 @@ body {
     bottom: 0px;
     width: 9px;
     height: 5px;
-    background: #ffae4e;
+    background: #71a029;
     position: absolute;
     animation: preloader_1 1.5s infinite ease-in-out;
   }
@@ -765,22 +765,21 @@ body {
     0% {
       height: 5px;
       transform: translateY(0px);
-      background: #ffae4e;
+      background: #71a029;
     }
     25% {
       height: 30px;
       transform: translateY(15px);
-      background: #ffae4e;
+      background: #71a029;
     }
     50% {
       height: 5px;
       transform: translateY(0px);
-      background: #ffae4e;
+      background: #71a029;
     }
     100% {
       height: 5px;
       transform: translateY(0px);
-      background: #ffae4e;
+      background: #71a029;
     }
 }
-
