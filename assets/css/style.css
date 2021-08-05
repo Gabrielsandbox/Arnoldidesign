@@ -1642,7 +1642,8 @@ body {
 .fixed .menu ul li {
   padding: 35px 20px; }
 .fixed .logo img {
-  width: 85%; }
+  width: 85%;
+   padding-left: -25px }
 
 .header-2 .fixed {
   background: rgba(0, 0, 0, 0.95);
