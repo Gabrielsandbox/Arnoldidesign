@@ -196,7 +196,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background: #ffc20a; }
+    background: #71a029; }
   .btn-global-hover:hover:after {
     width: 100%; }
 
@@ -312,7 +312,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: bold;
-  background: #ffc20a; }
+  background: #71a029; }
   .btn-regular:hover {
     color: #fff; }
 
@@ -331,7 +331,7 @@ body {
   color: #333; }
 
 .title:hover a {
-  color: #ffc20a; }
+  color: #71a029; }
 
 .title-bold-white {
   color: #fff; }
@@ -394,7 +394,7 @@ body {
       content: "";
       width: 60px;
       height: 2px;
-      background: #ffc20a;
+      background: #71a029;
       bottom: 0px;
       left: 50%;
       transform: translateX(-50%);
@@ -420,7 +420,7 @@ body {
       content: "";
       width: 60px;
       height: 2px;
-      background: #ffc20a;
+      background: #71a029;
       bottom: 0px;
       left: 50%;
       transform: translateX(-50%);
@@ -454,7 +454,7 @@ body {
       content: "";
       width: 60px;
       height: 3px;
-      background: #ffc20a;
+      background: #71a029;
       bottom: 0px;
       left: 0; }
 
@@ -663,7 +663,7 @@ body {
   left: 0;
   height: 85px;
   width: 100%;
-  background: #ffc20a;
+  background: #71a029;
   opacity: 0;
   top: auto;
   text-align: center;
@@ -713,7 +713,7 @@ body {
   .slide-button a:last-child {
     margin-right: 0px; }
   .slide-button a:first-child {
-    border: 2px solid #ffc20a; }
+    border: 2px solid #71a029; }
 
 .font-color-black {
   color: #333; }
@@ -2609,7 +2609,7 @@ body {
       padding: 5px; }
       .blog-content .item figure .post-date span:first-child {
         text-transform: uppercase;
-        border-bottom: 1px solid #ffe185; }
+        border-bottom: 1px solid #71a029; }
 .blog-content .item .info .title {
   padding: 25px 0 5px 0; }
   .blog-content .item .info .title:hover h3 {
@@ -3156,10 +3156,10 @@ body {
         .home5-slide-show .slide-item .item a:hover {
           background-color: #37474f; }
       .home5-slide-show .slide-item .item:first-child {
-        background: #faa536;
+        background: #71a029;
         margin-right: -1px; }
       .home5-slide-show .slide-item .item:nth-child(2) {
-        background: #f9991b; }
+        background: #71a029; }
 
 .home5-services .services-content .slick-arrow {
   color: #999;
