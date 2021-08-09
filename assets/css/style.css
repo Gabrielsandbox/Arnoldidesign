@@ -2366,7 +2366,8 @@ body {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     padding: 10px 0px;
-    font-weight: bold; }
+    font-weight: bold;
+    line-height: 32px }
   .slide-show .slide-content .slide-desc {
     color: #e5e5e5; }
 
