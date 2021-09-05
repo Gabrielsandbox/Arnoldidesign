@@ -896,9 +896,9 @@ body {
   .breadcrumb .active {
     color: #71a029; }
 
-/* 7. Dots ------------------------------------------*/
+/* 7. Dots ------------------------------------------
 .slick-dots {
-  bottom: 120px;
+bottom: 120px;
   left: 50%; }
   .slick-dots li {
     width: 13px; }
@@ -909,6 +909,8 @@ body {
   .slick-dots li.slick-active button:before {
     color: #71a029;
     opacity: 1; }
+
+    --------------------------------------------------*/
 
 /* 8. Fonts ------------------------------------------*/
 /* roboto-condensed-regular - latin */
