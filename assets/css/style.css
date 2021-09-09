@@ -3482,6 +3482,22 @@ bottom: 120px;
     .home6-testimonials-content .slick-dots .slick-active button:before {
       color: #71a029; }
 
+
+/* Datenschutz ------------------------------------------*/
+
+.Datenschutz {
+
+    margin: auto;
+    line-height: normal;
+
+
+
+
+
+}
+
+
+
 /* 20. Home Page  ------------------------------------------*/
 .projects-grid-columns {
   padding: 80px 50px; }
