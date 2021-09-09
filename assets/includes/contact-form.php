@@ -11,7 +11,7 @@ $option = json_decode($string);
 define("MAIL_HOST", $option->MAIL_HOST);
 
 $name = "";
-$email= "";
+$email= "gabrielmarinhoworks@gmail.com";
 $phone = "";
 $mes = "";
 $message = "";
@@ -46,7 +46,7 @@ if( isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) &&
 
     } else {
 
-        $to = "trieuau@gmail.com";
+        $to = "gabrielmarinhoworks@gmail.com";
 
     }
 
@@ -82,4 +82,3 @@ if( isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) &&
 
     }
 }
-
