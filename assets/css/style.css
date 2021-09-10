@@ -1953,14 +1953,10 @@ bottom: 120px;
 
   .company-skills .company-skills-content .section-title-left {
     margin-bottom: 20px; }
-    .company-skills .company-skills-content .section-title-left2 {
-      margin-bottom: 20px;
-      margin-left: 120px }
   .company-skills .company-skills-content .desc {
     margin-bottom: 25px; }
     .company-skills .company-skills-content .desc2 {
-      margin-bottom: 25px;
-      margin-left: 120px }
+      margin-bottom: 25px; }
   .company-skills .company-skills-content .company-skills-list ul li .title-regular-14 span:nth-child(2) {
     font-family: 'Source Sans Pro', sans-serif; }
   .company-skills .company-skills-content .company-skills-list ul li .progress {
