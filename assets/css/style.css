@@ -2005,6 +2005,10 @@ bottom: 120px;
 .company-skills .company-skills-content {
   padding: 80px 300px 90px 60px;
   background: #f7f7f7; }
+
+.company-skills .company-skills-content2 {
+  padding: 80px 60px 90px 300px;
+  background: #f7f7f7; }
   .company-skills .company-skills-content .section-title-left {
     margin-bottom: 20px; }
   .company-skills .company-skills-content .desc {
