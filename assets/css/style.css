@@ -1946,17 +1946,6 @@ bottom: 120px;
   .company-skills .company-skills-video img {
     width: 100%;
     height: 100%; }
-  .company-skills .company-skills-video .overgradient {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: transparent;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0, transparent 40%, transparent 60%);
-    background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0, transparent 40%, transparent 60%);
-    z-index: 2; }
   .company-skills .company-skills-video .info {
     position: absolute;
     bottom: 30px;
