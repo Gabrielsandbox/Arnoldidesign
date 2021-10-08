@@ -23,23 +23,23 @@
 .theme-footer-two .bottom-footer,.theme-pagination ul li a:hover,.theme-pagination ul li.active a,.project-details .list-text li:before,.project-details .project-tab .nav-tabs .nav-item.show .nav-link,
 .project-details .project-tab .nav-tabs .nav-link.active,.theme-sidebar .sidebar-author .social-icon li a:hover,.theme-sidebar .sidebar-tags ul li a:hover,.news-classic .single-classic-news .title .date,
 .news-details .share-option .social-icon li a:hover,.theme-header-two .collapse-button .icon-bar  {
-  background: #3865eb;
+  background: #09458e;
 }
 .video-presentation .video-player .play-button:hover:before,.project-details .project-tab .nav-tabs .nav-item.show .nav-link,
 .project-details .project-tab .nav-tabs .nav-link.active,.theme-sidebar .sidebar-tags ul li a:hover {
   border-style: solid;
-  border-color:#3865eb;
+  border-color:#09458e;
 }
-.news-classic .single-classic-news .post-tag-meta li,.news-classic .classic-news-bg .post-tag-meta li {border-right-color:#3865eb; }
+.news-classic .single-classic-news .post-tag-meta li,.news-classic .classic-news-bg .post-tag-meta li {border-right-color:#09458e; }
 .about-compnay .image-wrapper .image-box .overlay {
-	background: rgba(55,100,325,0.8);
+	background: rgba(9, 69, 142,0.8); rgb(9, 69, 142)
 }
 .latest-project .single-block .overlay,.theme-counter-section .overlay,.our-portfolio .single-block .overlay,
 .theme-sidebar .sidebar-latest-news .single-latest-news .img-box .overlay {
-	background: rgba(55,100,325,0.9);
+	background: rgba(9, 69, 142,0.9);
 }
 .partner-section-one .overlay,.service-style-two .single-block .overlay {
-	background: rgba(55,100,325,0.7);
+	background: rgba(9, 69, 142,0.7);
 }
 .main-footer-widget .subscribe-widget form input:focus {
   box-shadow: 0px 0px 20.52px 0.48px rgba(55, 100, 325, 0.05);
