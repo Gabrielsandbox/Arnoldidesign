@@ -1,13 +1,13 @@
 
 /* CSS Document */
 
-/* 
+/*
     Created on   : 21/07/2018.
     Theme Name   : Apache-Business-Consulting HTML Template.
     Version      : 1.0.
     Author       : @CreativeGigs.
     Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
-   
+
 */
 
 /* ------------------------------------------ */
@@ -81,7 +81,7 @@
 @import url('../vendor/jquery-ui/jquery-ui.css');
 
 
-/*** 
+/***
 
 ====================================================================
   Loading Transition
@@ -885,7 +885,7 @@ body .theme-button-one:hover {background:#151515; }
 .testimonial-section-one .owl-theme .owl-nav .owl-prev {left: -125px;}
 .testimonial-section-one .owl-theme .owl-nav [class*=owl-]:hover {background: #fff;color: #333333;}
 /*----------------------- Our Blog Grid ----------------------*/
-.our-blog .theme-title-one {margin-bottom: 45px;}
+.our-blog .theme-title-one {margin-bottom: 45px; margin-top: 55px;}
 .blog-inner-page .single-blog-meta {margin-bottom: 40px;}
 .our-blog .single-blog-meta .img-box {
   overflow: hidden;
@@ -929,7 +929,7 @@ body .theme-button-one:hover {background:#151515; }
 /*---------------------- Footer One ------------------------*/
 .theme-footer-one {background: #222222;padding-top: 80px;}
 .theme-footer-one .top-footer {
-  border-bottom: 1px solid #373737; 
+  border-bottom: 1px solid #373737;
   position: relative;
   padding-bottom: 35px;
 }
@@ -995,7 +995,7 @@ body .theme-button-one:hover {background:#151515; }
   height: 58px;
   border-radius: 50%;
   margin-top: 15px;
-} 
+}
 .main-footer-widget .comment-widget ul li .text {
   float: left;
   width: calc(100% - 58px);
@@ -1645,7 +1645,7 @@ body .theme-button-one:hover {background:#151515; }
   border-radius: 50%;
   margin: 0 auto;
 }
-.theme-sidebar .sidebar-author h6 {font-weight: 700;padding: 25px 0 4px 0;} 
+.theme-sidebar .sidebar-author h6 {font-weight: 700;padding: 25px 0 4px 0;}
 .theme-sidebar .sidebar-author .social-icon li {display: inline-block;margin: 18px 1px 0 1px;}
 .theme-sidebar .sidebar-author .social-icon li a {
   width: 28px;
@@ -1826,7 +1826,7 @@ body .theme-button-one:hover {background:#151515; }
   font-weight: 700;
   color: #181818;
 }
-.news-details .single-classic-news p {padding-bottom: 20px;} 
+.news-details .single-classic-news p {padding-bottom: 20px;}
 .news-details .single-classic-news .inner-title {padding-bottom: 20px;}
 .news-details .single-classic-news .list-text {padding-bottom: 15px;}
 .news-details .single-classic-news .list-text li {
