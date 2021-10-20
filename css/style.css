@@ -366,7 +366,7 @@ body .theme-button-one:hover {background:#151515; }
   position: relative;
   width: 100px;
 }
-#theme-main-banner .camera_prev span {right: 20px;}
+#theme-main-banner .camera_prev span {right: -25px;}
 #theme-main-banner .camera_next span {right: 97px;}
 #theme-main-banner .camera_prev span:before,
 #theme-main-banner .camera_next span:before {
