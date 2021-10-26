@@ -1,12 +1,12 @@
 /* Responsive CSS Document */
 
-/* 
+/*
     Created on   : 21/07/2018.
     Theme Name   : Apache-Business-Consulting HTML Template.
     Version      : 1.0.
     Author       : @CreativeGigs.
     Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
-   
+
 */
 
 @media (min-width: 992px) {
@@ -44,7 +44,7 @@
   .theme-header-two #mega-menu-holder>ul> li:first-child> a {border-top:1px solid rgba(0,0,0,0.05);}
   .theme-header-two .collapse-button {float: none;}
   .theme-header-two .social-icon li {margin-top: 0;}
-  .section-spacing {margin-bottom: 90px;}
+  .section-spacing {margin-bottom: 5px;}
   .theme-menu-wrapper .logo {top:5px;}
   .theme-menu-wrapper.fixed #mega-menu-holder>ul> li> a,.theme-header-two .theme-menu-wrapper.fixed #mega-menu-holder>ul> li> a {padding-bottom: 0;padding-top: 0;}
   .theme-header-one .theme-menu-wrapper {padding-top: 0;}
@@ -80,7 +80,7 @@
   #theme-main-banner .consultation-form form {padding: 30px 15px; margin: 20px auto 0 auto;}
   #theme-main-banner.banner-two .camera_caption {text-align: center;}
   #theme-main-banner.banner-two .camera_caption p {margin-left: auto;margin-right: auto;}
-} 
+}
 /*(max-width: 991px)*/
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -165,7 +165,7 @@
     top: calc(50% - 50px);
     left: 7%;
     padding: 30px 10px;
-  } 
+  }
 }
 @media (max-width: 500px) {
   .video-presentation .counter-text-wrapper li {width: 100%;}
