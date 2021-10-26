@@ -815,6 +815,10 @@ body .theme-button-one:hover {background:#151515; }
 }
 .partner-section-one .overlay {padding: 90px 0;}
 .partner-section-one .overlay img {margin: 0 auto;}
+
+.partner-section-text { margin-top: 10px  }
+.partner-section-text .container { padding: 15px 0;}
+
 /*---------------------- Call Back Form One ------------------*/
 .call-back-form-one .theme-title-one {margin-bottom: 15px;}
 .call-back-form-one .theme-title-one .title:before {display: none;}
