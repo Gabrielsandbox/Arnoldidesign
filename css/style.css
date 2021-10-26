@@ -1546,7 +1546,7 @@ body .theme-button-one:hover {background:#151515; }
   width: 16px;
   height: 10px;
   position: absolute;
-  background: #00c4f3;
+  background: #3865eb3;
   z-index: 5;
   left: 0;
   right: 0;
@@ -1557,7 +1557,7 @@ body .theme-button-one:hover {background:#151515; }
 }
 
 .timeline .hexa:before {
-  border-bottom: 4px solid #00c4f3;
+  border-bottom: 4px solid #3865eb;
   border-left-width: 8px;
   border-right-width: 8px;
   top: -4px;
@@ -1566,7 +1566,7 @@ body .theme-button-one:hover {background:#151515; }
 .timeline .hexa:after {
   border-left-width: 8px;
   border-right-width: 8px;
-  border-top: 4px solid #00c4f3;
+  border-top: 4px solid #3865eb;
   bottom: -4px;
 }
 
@@ -1639,7 +1639,7 @@ body .theme-button-one:hover {background:#151515; }
 }
 
 .time {
-  background: #00c4f3;
+  background: #3865eb;
   display: inline-block;
   padding: 8px;
 }
