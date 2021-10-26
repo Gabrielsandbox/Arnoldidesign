@@ -44,7 +44,7 @@
   .theme-header-two #mega-menu-holder>ul> li:first-child> a {border-top:1px solid rgba(0,0,0,0.05);}
   .theme-header-two .collapse-button {float: none;}
   .theme-header-two .social-icon li {margin-top: 0;}
-  .section-spacing {margin-bottom: 5px;}
+  .section-spacing {margin-bottom: 40px;}
   .theme-menu-wrapper .logo {top:5px;}
   .theme-menu-wrapper.fixed #mega-menu-holder>ul> li> a,.theme-header-two .theme-menu-wrapper.fixed #mega-menu-holder>ul> li> a {padding-bottom: 0;padding-top: 0;}
   .theme-header-one .theme-menu-wrapper {padding-top: 0;}
