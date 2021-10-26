@@ -156,7 +156,9 @@
  h1 {font-size: 70px; font-weight: 700;line-height: 75px;}
  h2 {font-size: 35px; font-weight: normal;line-height: 40px;}
  h3 {font-size: 30px; font-weight: 700;}
- h3 .bannertext {color: #ffffff}
+ h3 .theme-inner-banner .overlay .title .bannertext {
+   color : #ffffff;
+ }
  h4 {font-size: 24px; font-weight: 700;}
  h5 {font-size: 25px; font-weight: normal;}
  h6 {font-size: 20px; font-weight: normal;}
