@@ -819,9 +819,12 @@ body .theme-button-one:hover {background:#151515; }
 .partner-section-text { margin-top: 10px  }
 .partner-section-text .container { padding: 15px 0;}
 
+figure {
+  margin: 0; }
+
 /* 1. Extend ------------------------------------------*/
 /* @extend display-flex; */
-display-flex, .display-flex, .display-flex-center, .company-skills, .company-skills .company-skills-video {
+display-flex, .display-flex, .display-flex-center, .company-skills, .company-skills .company-skills-video  {
   display: flex;
   display: -webkit-flex; }
 
