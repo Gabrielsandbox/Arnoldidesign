@@ -715,6 +715,12 @@ body .theme-button-one:hover {background:#151515; }
   left:0;
   font-size: 42px;
 }
+
+.service-style-one .main-container .services-text {
+
+   padding: 10px 0;
+  
+}
 /*--------------------------- Latest Project -----------------*/
 .latest-project.bg-color {background: #181818;padding: 130px 0 140px 0;}
 .latest-project.bg-color .theme-title-one .title {color: #fff;}
