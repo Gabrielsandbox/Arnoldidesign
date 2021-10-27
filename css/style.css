@@ -877,6 +877,16 @@ display-flex, .display-flex, .display-flex-center, .company-skills, .company-ski
         .company-skills .company-skills-content {
           padding: 40px 60px; }
 
+          .company-skills .company-skills-video, .company-skills .company-skills-content {
+            width: 50%; }
+          .company-skills .company-skills-video {
+            position: relative; }
+            .company-skills .company-skills-video figure {
+              height: 100%; }
+            .company-skills .company-skills-video img {
+              width: 100%;
+              height: 100%; }
+
           .clear {
             clear: both; }
 
