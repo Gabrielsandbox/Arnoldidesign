@@ -819,6 +819,68 @@ body .theme-button-one:hover {background:#151515; }
 .partner-section-text { margin-top: 10px  }
 .partner-section-text .container { padding: 15px 0;}
 
+/* 1. Extend ------------------------------------------*/
+/* @extend display-flex; */
+display-flex, .display-flex, .display-flex-center, .company-skills, .company-skills .company-skills-video {
+  display: flex;
+  display: -webkit-flex; }
+
+  .company-skills .company-skills-content .company-skills-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+
+    .company-skills .company-skills-video, .company-skills .company-skills-content {
+      width: 50%; }
+    .company-skills .company-skills-video {
+      position: relative; }
+      .company-skills .company-skills-video figure {
+        height: 100%; }
+      .company-skills .company-skills-video img {
+        width: 100%;
+        height: 100%; }
+
+    .company-skills .company-skills-content {
+      padding: 80px 120px 90px 60px;
+      background: #f7f7f7; }
+
+      .company-skills .company-skills-content .section-title-left {
+        margin-bottom: 20px; }
+      .company-skills .company-skills-content .desc {
+        margin-bottom: 25px; }
+        .company-skills .company-skills-content .desc2 {
+          margin-bottom: 25px; }
+      .company-skills .company-skills-content .company-skills-list ul li .title-regular-14 span:nth-child(2) {
+        font-family: 'Source Sans Pro', sans-serif; }
+      .company-skills .company-skills-content .company-skills-list ul li .progress {
+        margin: 10px 0 20px 0;
+        height: 10px;
+        border-radius: 20px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -o-border-radius: 20px;
+        -ms-border-radius: 20px; }
+      .company-skills .company-skills-content .company-skills-list ul li:nth-child(3) .progress-bar {
+        background-color: #0dd5d3; }
+      .company-skills .company-skills-content .company-skills-list ul li:nth-child(4) .bg-info {
+        background-color: #2bdafa !important; }
+      .company-skills .company-skills-content .company-skills-list ul li:nth-child(5) .bg-danger {
+        background-color: #ff2d0a !important; }
+
+        .company-skills, .choose-us-content {
+          display: block; }
+
+        .company-skills .company-skills-video, .company-skills .company-skills-content, .choose-us-content .statistics-company, .choose-us-content .choose-us-list,
+        .choose-us-content .choose-us-list .choose-us-list-content {
+          width: 100%; }
+
+        .company-skills .company-skills-content {
+          padding: 40px 60px; }
+
+          .clear {
+            clear: both; }
+
+
 .bioImg {
   height: 50%;
   &:after {
