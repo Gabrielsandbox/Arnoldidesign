@@ -37,7 +37,7 @@
     }
 }
 
-// Company skills 
+// Company skills
 .company-skills {
     @extend display-flex;
     .company-skills-video, .company-skills-content{
@@ -106,7 +106,7 @@
         }
     }
     .company-skills-content {
-        padding: 80px 300px 90px 60px;
+        padding: 80px 300px 0px 60px;
         background: #f7f7f7;
         .section-title-left {
             margin-bottom: 20px;
@@ -183,7 +183,7 @@
                 li {
                     background: #fff;
                     margin-bottom: 20px;
-                    
+
                     position: relative;
                     @include border-radius(0px);
                     border: none;
@@ -263,7 +263,7 @@
                         .count {
                             font-size: 30px;
                         }
-                    }        
+                    }
                 }
             }
             .btn-global {
