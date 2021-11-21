@@ -1,3 +1,10 @@
+
+#Ebene_1 {
+ top: 76.9995px;
+ position: relative;
+ left: 90.4px;
+}
+
 .u-section-1 .u-sheet-1 {
   min-height: 520px;
 }
@@ -286,6 +293,7 @@
   .u-section-1 .u-image-4 {
     margin-top: -6px;
     margin-right: 48px;
+
   }
 
   .u-section-1 .u-line-1 {
