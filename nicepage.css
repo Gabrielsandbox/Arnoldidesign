@@ -363,11 +363,11 @@ span.fr-img-caption.fr-view {
 /*end-commonstyles library*//*begin-commonstyles library*/@charset "UTF-8";
 
 /*!
- * animate.css -http://daneden.me/animate
- * Version - 3.7.0
+ * animate.css -https://daneden.github.io/animate.css/
+ * Version - 3.7.2
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
  *
- * Copyright (c) 2018 Daniel Eden
+ * Copyright (c) 2019 Daniel Eden
  */
 
 @-webkit-keyframes bounce {
@@ -3975,12 +3975,14 @@ span.fr-img-caption.fr-view {
   animation-duration: 3s;
 }
 
-@media (prefers-reduced-motion) {
+@media (print), (prefers-reduced-motion: reduce) {
   .animated {
-    -webkit-animation: unset !important;
-    animation: unset !important;
-    -webkit-transition: none !important;
-    transition: none !important;
+    -webkit-animation-duration: 1ms !important;
+    animation-duration: 1ms !important;
+    -webkit-transition-duration: 1ms !important;
+    transition-duration: 1ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+    animation-iteration-count: 1 !important;
   }
 }
 /*end-commonstyles library*//*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
@@ -20039,7 +20041,7 @@ h6 {
   color: #ffffff;
 }
 .u-body {
-  color: #777777;
+  color: #111111;
   background-color: #ffffff;
 }
 /*end-variables color*/
@@ -34399,9 +34401,9 @@ a.u-link.u-text-hover-grey-90:hover {
             color: #09458e !important;
         }
 
+        
 
-
-
+        
         .u-border-custom-color-1,
         .u-separator-custom-color-1:after
         {
@@ -34448,9 +34450,9 @@ a.u-link.u-text-hover-grey-90:hover {
         {
             border-color: #083e80 !important;
         }
+        
 
-
-
+        
         .u-text-custom-color-1,
         a.u-button-style.u-text-custom-color-1,
         a.u-button-style.u-text-custom-color-1[class*="u-border-"]
@@ -34513,7 +34515,7 @@ a.u-link.u-text-hover-grey-90:hover {
             color: #09458e !important;
         }
 
-
+        
 
         /** common-rules **/
         h1.u-title
@@ -34673,7 +34675,7 @@ a.u-link.u-text-hover-grey-90:hover {
         /*end-media rules*/
         /** publish-rules **/
 
-
+        
 
         /** cms-rules **/
         /*begin-responsive rules*/
@@ -34785,7 +34787,7 @@ a.u-link.u-text-hover-grey-90:hover {
         color: #ffffff;
         }
         /** alt-color-rules **/
-
+    
 
 
 /*end-variables sitestylecss*/
@@ -34797,34 +34799,6 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 80px;
 }
 
-.u-header .u-image-1 {
-  width: 0;
-  height: 0;
-  margin: 22px auto 0 0;
-}
-
-.u-header .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
-}
-
-.u-header .u-menu-1 {
-  margin: -32px 0 22px auto;
-}
-
-.u-header .u-nav-1 {
-  font-size: 1rem;
-  letter-spacing: 0px;
-}
-
-.u-header .u-nav-2 {
-  font-size: 1.25rem;
-}
-@media (max-width: 1199px) {
-  .u-header .u-menu-1 {
-    width: auto;
-  }
-}
 
 
 
@@ -34834,11 +34808,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-sheet-1 {
   min-height: 120px;
-}
-
-.u-footer .u-text-1 {
-  width: 417px;
-  margin: 49px auto;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
@@ -34859,12 +34828,8 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-sheet-1 {
     min-height: 36px;
   }
-
-  .u-footer .u-text-1 {
-    width: 340px;
-  }
 }
 
- /*begin-variables base-font-size*/
+ /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
