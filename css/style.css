@@ -427,6 +427,28 @@ body .theme-button-one:hover {background:#151515; }
   font-style: italic;
 }
 #theme-main-banner .consultation-form form button {margin: 0 auto;}
+
+.section-title-left {
+    margin-bottom: 50px;
+    h2 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 26px;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 14px;
+        &:after {
+            position: absolute;
+            content: "";
+            width: 60px;
+            height: 3px;
+            background: #09458e;
+            bottom: 0px;
+            left: 0;
+        }
+    }
+}
+
 /*--------------------------- Feature Work ---------------------*/
 .feature-work .single-feature .title {position: relative;padding-bottom: 22px;margin-bottom: 20px;}
 .feature-work .single-feature .title:before {
