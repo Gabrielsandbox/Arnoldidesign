@@ -39,7 +39,7 @@
 	background: rgba(9, 69, 142,0.9);
 }
 .partner-section-one .overlay,.service-style-two .single-block .overlay {
-	background: rgba(9, 69, 142,0.7);
+	background: #ffff;
 }
 .main-footer-widget .subscribe-widget form input:focus {
   box-shadow: 0px 0px 20.52px 0.48px rgba(55, 100, 325, 0.05);
