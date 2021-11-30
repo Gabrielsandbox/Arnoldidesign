@@ -88,6 +88,28 @@
 ====================================================================
 
  ***/
+
+ .owl-item.active:nth-child(2) > .item:nth-child(1) > img:nth-child(1) {
+ width: 120px;
+ height: 120px;
+ top: 53.3px;
+ position: relative;
+ left: 59.4px;
+}
+
+.owl-item.active:nth-child(3) > .item:nth-child(1) > img:nth-child(1) {
+ width: 144px;
+ top: 43.3px;
+ position: relative;
+ left: 132.4px;
+}
+
+.owl-item.active:nth-child(4) > .item:nth-child(1) > img:nth-child(1) {
+ top: 58.3px;
+ position: relative;
+ left: 223.4px;
+}
+
 #loader-wrapper {
   position: fixed;
   top: 0;
