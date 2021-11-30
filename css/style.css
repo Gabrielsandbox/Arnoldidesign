@@ -80,24 +80,6 @@
 /*----jquery ui css-------*/
 @import url('../vendor/jquery-ui/jquery-ui.css');
 
-.owl-item.active:nth-child(4) > .item:nth-child(1) > img:nth-child(1) {
- position: relative;
- left: -865.6px;
- top: -566.7px;
-}
-
-.owl-item.active:nth-child(3) > .item:nth-child(1) > img:nth-child(1) {
- position: relative;
- width: 18px;
- top: -570.7px;
-}
-
-.owl-item.active:nth-child(2) > .item:nth-child(1) > img:nth-child(1) {
- position: relative;
- top: -630.712px;
- width: 12px;
- height: 12px;
-}
 
 /***
 
