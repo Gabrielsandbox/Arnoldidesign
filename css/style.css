@@ -860,7 +860,7 @@ body .theme-button-one:hover {background:#151515; }
   background-size: cover;
   background-attachment: fixed;
 }
-.partner-section-one .overlay {padding: 45px 0;}
+.partner-section-one .overlay {padding: 45px 0 90px 0;}
 .partner-section-one .overlay img {margin: 0 auto;}
 
 .partner-section-text { margin-top: 10px  }
