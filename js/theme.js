@@ -9,20 +9,34 @@
 
 (function($) {
     "use strict";
-    
-    
+
+
     $(document).on ('ready', function (){
-        
+
         // -------------------- Navigation Scroll
-        $(window).on('scroll', function (){   
+        $(window).on('scroll', function (){
           var sticky = $('.theme-menu-wrapper'),
           scroll = $(window).scrollTop();
           if (scroll >= 190) sticky.addClass('fixed');
           else sticky.removeClass('fixed');
 
         });
+        var coll = document.getElementsByClassName("collapsible");
+var i;
 
-        // ------------------------------ Theme Menu 
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+        // ------------------------------ Theme Menu
         var menu= $("#mega-menu-holder");
           if(menu.length) {
             menu.slimmenu({
@@ -71,7 +85,7 @@
           };
 
 
-        // ------------------------------- WOW Animation 
+        // ------------------------------- WOW Animation
         var wow = new WOW({
             boxClass:     'wow',      // animated element css class (default is wow)
             animateClass: 'animated', // animation css class (default is animated)
@@ -82,7 +96,7 @@
           wow.init();
 
 
-        
+
         // -------------------- Remove Placeholder When Focus Or Click
         $("input,textarea").each( function(){
             $(this).data('holder',$(this).attr('placeholder'));
@@ -91,9 +105,9 @@
             });
             $(this).on('focusout', function() {
                 $(this).attr('placeholder',$(this).data('holder'));
-            });     
+            });
         });
-        
+
         // -------------------- From Bottom to Top Button
             //Check to see if the window is top if not then display button
         $(window).on('scroll', function (){
@@ -114,7 +128,7 @@
         // --------------------------- Theme Main Banner Slider One
         var banner = $(".banner-one");
         if (banner.length) {
-          banner.camera({ //here I declared some settings, the height and the presence of the thumbnails 
+          banner.camera({ //here I declared some settings, the height and the presence of the thumbnails
             height: '1000px',
             pagination: false,
             navigation: true,
@@ -134,7 +148,7 @@
         // --------------------------- Theme Main Banner Slider Two
         var banner = $(".banner-two");
         if (banner.length) {
-          banner.camera({ //here I declared some settings, the height and the presence of the thumbnails 
+          banner.camera({ //here I declared some settings, the height and the presence of the thumbnails
             height: '790px',
             pagination: false,
             navigation: true,
@@ -258,7 +272,7 @@
 
 
 
-        // ------------------------------- Testimonial Slider One 
+        // ------------------------------- Testimonial Slider One
         var mSlider = $ (".testimonial-slider-one");
         if(mSlider.length) {
             mSlider.owlCarousel({
@@ -447,7 +461,7 @@
             $('.theme-accordion > .panel').on('show.bs.collapse', function (e) {
                   var heading = $(this).find('.panel-heading');
                   heading.addClass("active-panel");
-                  
+
             });
             $('.theme-accordion > .panel').on('hidden.bs.collapse', function (e) {
                 var heading = $(this).find('.panel-heading');
@@ -460,12 +474,12 @@
                 }
             });
           };
-        
 
-        
+
+
     });
 
-    
+
     $(window).on ('load', function (){ // makes sure the whole site is loaded
 
         // -------------------- Site Preloader
@@ -475,5 +489,5 @@
 
 
     })
-    
+
 })(jQuery)
