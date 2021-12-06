@@ -186,7 +186,7 @@
  h6 {font-size: 20px; font-weight: normal;}
  p {line-height: 25px;}
  ul {list-style-type: none;}
- body a {text-decoration: none;color: #777777; display: inline-block;}
+ body a {text-decoration: none;color: #ffff; display: inline-block;}
  a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
  img {max-width: 100%; display: block;}
  button {border:none;outline: none;box-shadow: none;display: block; padding: 0;cursor: pointer;}
