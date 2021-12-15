@@ -2374,7 +2374,7 @@ body .theme-button-one:hover {background:#151515; }
 .form-validation input.error,.form-validation textarea.error {border:1px solid #f03838 !important;}
 /*------------------- Google Map ---------------------*/
 .map-canvas {width: 100%;height: 100%;}
-.google-map {height: 600px;}
+.google-map {height: 500px;}
 /*----------------------- Error Page ------------------*/
 .error-page {text-align: center;}
 .error-page h2 {
