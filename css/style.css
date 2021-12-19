@@ -274,7 +274,7 @@ body .theme-button-one:hover {background:#151515; }
 .theme-main-header .middle-header .our-address li p a {
   font-size: 17px;
   font-weight: 600;
-  color: #fff;
+  color: #000000;
 }
 .theme-main-header .middle-header .our-address li .icon {
   position: absolute;
