@@ -1029,7 +1029,7 @@ body .theme-button-one:hover {background:#151515; }
 .theme-footer-one .main-footer-widget {padding: 45px 0 35px 0;}
 .main-footer-widget .title {
   font-size: 20px;
-  color: #fff;
+  color: #000000;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -1116,7 +1116,7 @@ body .theme-button-one:hover {background:#151515; }
 .main-footer-widget .row [class*="col"] {margin-bottom: 45px;}
 .theme-footer-one .bottom-footer {background: #131313;text-align: center;padding: 22px 0;}
 /*---------------------- Footer Two ----------------------*/
-.theme-footer-two {background: #222222;padding-top: 70px;}
+.theme-footer-two {background: ##efefefab;padding-top: 70px;}
 .theme-footer-two .main-footer-widget .about-widget p:nth-child(2) {
   border-bottom: none;
   border-top: 1px solid #373737;
