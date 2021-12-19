@@ -255,7 +255,7 @@ body .theme-button-one:hover {background:#151515; }
 .theme-main-header .top-header.bg-color p,
 .theme-main-header .top-header.bg-color p a {color: #fff;}
 .theme-main-header .top-header.bg-color p:hover a {color: rgba(255,255,255,0.6);}
-.theme-main-header .middle-header {background: #181818;padding: 38px 0;}
+.theme-main-header .middle-header {background: #fff;padding: 38px 0;}
 .theme-main-header .middle-header .logo {float: left;}
 .theme-main-header .middle-header .our-address {float: right;}
 .theme-main-header .middle-header .our-address li {
@@ -269,7 +269,7 @@ body .theme-button-one:hover {background:#151515; }
 .theme-main-header .middle-header .our-address li p {
   font-size: 13px;
   line-height: 20px;
-  color: #fff;
+  color: #000000;
 }
 .theme-main-header .middle-header .our-address li p a {
   font-size: 17px;
