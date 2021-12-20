@@ -212,13 +212,26 @@
 							<div class="col-12"><textarea placeholder="Ihre Nachricht" name="Nachricht"></textarea></div>
 							<input type="hidden" name="_subject" value="Ein neuer Kunde hat sich gemeldet.">
 							<input type="hidden" name="_template" value="box">
-				      <input type="checkbox" id="kontakt" name="kontakt" value="kontakt"><label for="kontakt">Ich stimme zu, dass meine Angaben zur Beantwortung meiner Anfrage erhoben und verarbeitet werden dürfen. Mehr erfahren Sie in unserer Datenschutzerklärung.</label>
+				      <input type="checkbox" id="kontaktcheckbox" name="kontaktcheck" value="1">Ich stimme zu, dass meine Angaben zur Beantwortung meiner Anfrage erhoben und verarbeitet werden dürfen.<br> Mehr erfahren Sie in unserer Datenschutzerklärung.
               <br>
 							<div class="col-12"><button class="theme-button-one">Senden</button></div>
 						</div>
 					</form>
 				</div> <!-- /.container -->
 			</div> <!-- /.contact-us-page -->
+
+      <p id="sudo" style="color:green;font-size:30px;"></p>
+
+			<script>
+            function myGeeks() {
+                var g = document.getElementById("kontaktcheckbox").required;
+                document.getElementById("sudo").innerHTML = g;
+            }
+      </script>
+
+
+
+
 			<!--
 			=====================================================
 				Google Map
