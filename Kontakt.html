@@ -203,7 +203,7 @@
 					</div>
 				</div>
 				<div class="container">
-					<form action="https://formsubmit.co/gabrielmarinhoworks@gmail.com" method="POST" class="theme-form-one">
+					<form action="https://formsubmit.co/gabrielmarinhoworks@gmail.com" method="POST" class="theme-form-one" onsubmit="return checkForm(this);">
 						<div class="row">
 							<div class="col-lg-4 col-sm-6 col-12"><input name type="text" placeholder="Ihr Name" name="Name"></div>
 							<div class="col-lg-4 col-sm-6 col-12"><input type="email" placeholder="Ihre E-Mail" name="Email"></div>
@@ -212,7 +212,7 @@
 							<div class="col-12"><textarea placeholder="Ihre Nachricht" name="Nachricht"></textarea></div>
 							<input type="hidden" name="_subject" value="Ein neuer Kunde hat sich gemeldet.">
 							<input type="hidden" name="_template" value="box">
-				      <input type="checkbox" id="kontaktcheckbox" name="kontaktcheck" value="1">Ich stimme zu, dass meine Angaben zur Beantwortung meiner Anfrage erhoben und verarbeitet werden dürfen.<br> Mehr erfahren Sie in unserer Datenschutzerklärung.
+				      <input type="checkbox" required id="kontaktcheckbox" name="kontaktcheck" value="1">Ich stimme zu, dass meine Angaben zur Beantwortung meiner Anfrage erhoben und verarbeitet werden dürfen.<br> Mehr erfahren Sie in unserer Datenschutzerklärung.
               <br>
 							<div class="col-12"><button class="theme-button-one">Senden</button></div>
 						</div>
@@ -220,14 +220,9 @@
 				</div> <!-- /.container -->
 			</div> <!-- /.contact-us-page -->
 
-      <p id="sudo" style="color:green;font-size:30px;"></p>
 
-			<script>
-            function myGeeks() {
-                var g = document.getElementById("kontaktcheckbox").required;
-                document.getElementById("sudo").innerHTML = g;
-            }
-      </script>
+
+
 
 
 
