@@ -116,6 +116,9 @@
  left: 40.4px;
 }
 
+label {
+  display: inline-block;
+}
 
 #loader-wrapper {
   position: fixed;
