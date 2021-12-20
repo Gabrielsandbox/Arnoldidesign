@@ -89,33 +89,31 @@
 
  ***/
 
- .owl-item.active:nth-child(10) > .item:nth-child(1) > img:nth-child(1) {
- width: 200px;
-}
-
-.owl-item.active:nth-child(8) > .item:nth-child(1) > img:nth-child(1) {
- width: 200px;
- height: 200px;
- position: relative;
- top: 15.3px;
-}
-
-.owl-item.active:nth-child(7) > .item:nth-child(1) > img:nth-child(1) {
+ .owl-item.active:nth-child(2) > .item:nth-child(1) > img:nth-child(1) {
  width: 120px;
  height: 120px;
+ top: 11.3px;
  position: relative;
- top: 55.3px;
+ left: 84.4px;
 }
 
-.owl-item.active:nth-child(9) > .item:nth-child(1) > img:nth-child(1) {
- width: 200px;
+.owl-item.active:nth-child(4) > .item:nth-child(1) > img:nth-child(1) {
+ left: 188.4px;
  position: relative;
- top: 55.3px;
+ top: -18.7px;
 }
 
-.owl-item.cloned.active:nth-child(12) > .item:nth-child(1) > img:nth-child(1) {
+.owl-item.active:nth-child(3) > .item:nth-child(1) > img:nth-child(1) {
+ width: 180px;
+ height: 70px;
+ top: 31.3px;
  position: relative;
- top: 55.3px;
+ left: 117.4px;
+}
+
+.item:nth-child(1) > a:nth-child(1) > img:nth-child(1) {
+ position: relative;
+ left: 40.4px;
 }
 
 #loader-wrapper {
