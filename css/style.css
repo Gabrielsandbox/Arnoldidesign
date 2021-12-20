@@ -1154,7 +1154,7 @@ body .theme-button-one:hover {background:#151515; }
   vertical-align: middle;
   margin-right: 10px;
 }
-.main-footer-widget .twitter-widget  a {color: #fff;}
+.main-footer-widget .twitter-widget  a {color: #000;}
 .main-footer-widget .twitter-widget .twitter {
   position: absolute;
   top:5px;
