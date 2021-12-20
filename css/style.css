@@ -116,16 +116,6 @@
  left: 40.4px;
 }
 
-#kontaktcheckbox {
- position: relative;
- left: -574.611px;
-}
-
-p:nth-child(9) {
- left: 50.4px;
- position: relative;
- top: -49.4px;
-}
 
 #loader-wrapper {
   position: fixed;
