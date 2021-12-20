@@ -110,6 +110,10 @@
  left: 223.4px;
 }
 
+.owl-item.active:nth-child(10) > .item:nth-child(1) > img:nth-child(1) {
+ width: 200px;
+}
+
 #loader-wrapper {
   position: fixed;
   top: 0;
