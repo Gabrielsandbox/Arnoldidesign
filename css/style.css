@@ -116,6 +116,11 @@
  left: 40.4px;
 }
 
+[type="checkbox"]
+{
+    vertical-align:middle;
+}
+
 #loader-wrapper {
   position: fixed;
   top: 0;
