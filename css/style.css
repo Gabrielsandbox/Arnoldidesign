@@ -1258,7 +1258,7 @@ body .theme-button-one:hover {background:#151515; }
 .service-style-two .view-all-service .theme-button-one:hover {color: #fff;}
 /*---------------------- Why Choose us -----------------------*/
 .why-choose-us {background: #f6f6f6;padding: 75px 0;}
-.why-choose-us .theme-title-one {margin-bottom: 38px;}
+.why-choose-us .theme-title-one {margin-bottom: 15px;}
 .why-choose-us .single-block {padding-top: 45px;}
 .why-choose-us .single-block .tag {
   display: inline-block;
