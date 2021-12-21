@@ -1,6 +1,6 @@
 "use strict";
 $(function() {
-    var mapStyle = 
+    var mapStyle =
 			    				[
 			    {
 			        "featureType": "all",
@@ -174,12 +174,12 @@ $(function() {
         zoom: 12,
         styles: mapStyle,
         scrollwheel: false,
-        center: new google.maps.LatLng(40.72, -74)
+        center: new google.maps.LatLng(49.91730539339871, 7.0694370441782475)
     });
 
     // Add a marker
     var marker = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(40.72, -74)
+        position: new google.maps.LatLng(49.91730539339871, 7.0694370441782475)
     });
 });
