@@ -267,8 +267,7 @@ body .theme-button-one:hover {background:#151515; }
 .theme-main-header .top-header.bg-color p:hover a {color: rgba(255,255,255,0.6);}
 .theme-main-header .middle-header {background: #fff;padding: 25px 0;}
 .theme-main-header .middle-header .logo {float: left;}
-.theme-main-header .middle-header .our-address {float: right;}
-.our-adress{padding-top: 10px;}
+.theme-main-header .middle-header .our-address {float: right; padding-top: 10px}
 .theme-main-header .middle-header .our-address li {
   display: inline-block;
   position: relative;
