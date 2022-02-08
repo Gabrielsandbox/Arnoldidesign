@@ -17,7 +17,7 @@
 13. Live Content Builde Elements
 -------------------------------------------------------------------*/
 
-.rev_slider .slotholder {
+.rev_slider .slotholder:after{
     width: 100%;
     height: 100%;
     content: "";
