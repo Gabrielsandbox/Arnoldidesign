@@ -17,6 +17,19 @@
 13. Live Content Builde Elements
 -------------------------------------------------------------------*/
 
+.rev_slider .slotholder:after{
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    
+    /* black overlay with 50% transparency */
+    background: rgba(0, 0, 0, 0.2);
+}
+
 .portfolio_nav { display:none; }
 .top_bar.fixed
 {
