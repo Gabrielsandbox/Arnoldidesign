@@ -1646,7 +1646,7 @@ body.page-template-portfolio-2-php .footer_bar, body.page-template-portfolio-3-p
 #copyright
 {
 	float: left;
-	width: 50%;
+	width: 100%;
 	font-size: 12px;
 	margin-bottom: 20px;
 	text-align: left;
@@ -6858,7 +6858,7 @@ body.hover .page_slider .tp-leftarrow.default:hover, body.hover .page_slider .tp
 
 .one_half.last
 {
-	float: right;
+	/* float: right; */
 	width: 48%;
 	margin-right: 0;
 	clear: right;

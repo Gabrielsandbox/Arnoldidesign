@@ -341,6 +341,7 @@
 	.icon_list li .service_title strong { font-size: 14px; }
 	a.button.fullwidth.ppb .title { font-size: 26px; }
 	#copyright { float: none; width: 100%; margin-bottom: 0; line-height: 23px; }
+	#copyright #policy { float:none; }
 	input[type=submit].medium, input[type=button].medium, a.button.medium { padding: .3em 1.2em .3em 1.2em; }
 	.contact_form_wrapper input[type=text], .contact_form_wrapper input[type=email], .contact_form_wrapper input[type=date] { width: 96%; margin-right: 0; margin-bottom: 4%; }
 	.one_half_bg.contact_form { padding: 40px; }
@@ -593,6 +594,11 @@
 	#footer .sidebar_widget.four > li { margin-bottom: 20px; }
 	#photo_wall_wrapper.has_sidebar { width: 100%; }
 	.footer_bar_wrapper.fullscreen .social_wrapper , .footer_bar_wrapper.flow .social_wrapper, .footer_bar_wrapper.kenburns .social_wrapper, .footer_bar_wrapper.wall, .footer_bar_wrapper.flip .social_wrapper, .footer_bar_wrapper.static .social_wrapper { display: none !important; }
+	
+	#policy {
+		float: center;
+	}
+
 	.post_content_wrapper { width: 100%; }
 	ul.children div.comment .right { width: 86%; }
 	.page_control { left: 39%; bottom: 65px; }

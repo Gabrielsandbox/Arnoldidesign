@@ -373,4 +373,7 @@ html[data-menu=leftmenu] #wrapper
     width: 100%;
 }
 
+.footer_bar_wrapper .copyright div {
+          color:#fff;
+}
 
