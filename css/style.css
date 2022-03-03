@@ -369,6 +369,7 @@ html[data-menu=leftmenu] #wrapper
     width: 100%;
 }
 
+
 .flex-active-slide img {
     width: 100%;
 }
@@ -376,4 +377,9 @@ html[data-menu=leftmenu] #wrapper
 .footer_bar_wrapper .copyright div {
           color:#fff;
 }
+
+.quform-element {
+    margin: 0 10px;
+}
+
 
