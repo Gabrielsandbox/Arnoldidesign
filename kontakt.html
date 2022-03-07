@@ -10,7 +10,7 @@
                                     Geburtstag
                                     Hochzeitslocation
                                     Fest
-                                    Feier">,
+                                    Feier">
 
     <link rel="shortcut icon" href="images/home/marienhov_favicon.png"/>
 
@@ -37,6 +37,8 @@
     <link rel="stylesheet" type="text/css" href="vendor/revolution/settings.css">
     <link rel="stylesheet" type="text/css" href="vendor/revolution/layers.css">
     <link rel="stylesheet" type="text/css" href="vendor/revolution/navigation.css">
+
+    
 
 
 
@@ -69,8 +71,8 @@
 
     <input type="hidden" id="pp_footer_style" name="pp_footer_style" value="4" />
 
-    <!-- Begin mobile menu -->
-    <div class="mobile_menu_wrapper">
+       <!-- Begin mobile menu -->
+       <div class="mobile_menu_wrapper">
         <a id="close_mobile_menu" href="javascript:;"><i class="fa fa-close"></i></a>
 
         <div class="menu-side-menu-container">
@@ -631,6 +633,7 @@
     <div id="overlay_background"></div>
 
 
+
     <script src='js/jquery.js'></script>
     <script src='js/jquery-migrate.min.js'></script>
     <script src='js/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
@@ -663,6 +666,9 @@
     <script src='js/plugins/jquery.flexslider-min.js'></script>
     <script src='js/plugins/jquery.validate.js'></script>
     <script src='js/plugins/custom_onepage.js'></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCmVhK5ZjYRjzAe-e9ZKS1mA3NBPuViwQ"></script>
+    <script src='js/plugins/jquery.simplegmaps.min.js'></script>
+    <script src='js/plugins/script-map.js'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var tgAjax = {
@@ -671,13 +677,150 @@
         };
         /* ]]> */
     </script>
+    <script type='text/javascript'>
+        jQuery(window).load(function(){ 
+            jQuery('.slider_wrapper').flexslider({
+                  animation: "fade",
+                  animationLoop: true,
+                  itemMargin: 0,
+                  minItems: 1,
+                  maxItems: 1,
+                  slideshow: false,
+                  controlNav: false,
+                  smoothHeight: false,
+                  slideshowSpeed: 5000,
+                  move: 1
+            });
+            
+            jQuery('.slider_wrapper.portfolio .slides li').each( function() {
+                var height = jQuery(this).height();
+                var imageHeight = jQuery(this).find('img').height();
+            
+                var offset = (height - imageHeight) / 2;
+            
+                jQuery(this).find('img').css('margin-top', offset + 'px');
+            
+            });
+        });
+    </script>
 
-    <script src="js/plugins/quform/js/plugins.js"></script>
-    <script src="js/plugins/quform/js/scripts.js"></script>  
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCmVhK5ZjYRjzAe-e9ZKS1mA3NBPuViwQ"></script>
-    <script src='js/plugins/jquery.simplegmaps.min.js'></script>
-    <script src='js/plugins/script-map.js'></script>
 
+    <script type="text/javascript">
+        function setREVStartSize(e) {
+            try {
+                var i = jQuery(window).width(),
+                    t = 9999,
+                    r = 0,
+                    n = 0,
+                    l = 0,
+                    f = 0,
+                    s = 0,
+                    h = 0;
+                if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function(e, f) {
+                        f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+                    }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
+                    var u = (e.c.width(), jQuery(window).height());
+                    if (void 0 != e.fullScreenOffsetContainer) {
+                        var c = e.fullScreenOffsetContainer.split(",");
+                        if (c) jQuery.each(c, function(e, i) {
+                            u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+                        }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+                    }
+                    f = u
+                } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
+                e.c.closest(".rev_slider_wrapper").css({
+                    height: f
+                })
+            } catch (d) {
+                console.log("Failure at Presize of Slider:" + d)
+            }
+        };
+    </script>
+    <script>
+        var htmlDiv = document.getElementById("rs-plugin-settings-inline-css");
+        var htmlDivCss = ".tp-caption.title-first-word,.title-first-word{font-size:60px;line-height:50px;font-family:Kristi;color:#cfa670;text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(0,0,0);border-style:none;text-shadow:none}.tp-caption.title,.title{font-size:65px;font-weight:300;font-family:Lato;color:rgb(26,56,83);text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(0,0,0);border-style:none;text-shadow:none;text-transform:uppercase;letter-spacing:-3px}.tp-caption.sub-title-center,.sub-title-center{font-size:20px;line-height:24px;font-weight:400;font-family:Lato;color:rgb(26,56,83);text-decoration:none;background-color:transparent;border-width:0px;border-color:rgb(0,0,0);border-style:none;text-shadow:none;text-transform:uppercase;letter-spacing:-1px}";
+        if (htmlDiv) {
+            htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+        } else {
+            var htmlDiv = document.createElement("div");
+            htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+            document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+        }
+    </script>
+    <script type="text/javascript">
+        setREVStartSize({
+            c: jQuery('#rev_slider_1_1'),
+            gridwidth: [1425],
+            gridheight: [600],
+            sliderLayout: 'auto'
+        });
+
+        var revapi1,
+            tpj = jQuery;
+        tpj.noConflict();
+        tpj(document).ready(function() {
+            if (tpj("#rev_slider_1_1").revolution == undefined) {
+                revslider_showDoubleJqueryError("#rev_slider_1_1");
+            } else {
+                revapi1 = tpj("#rev_slider_1_1").show().revolution({
+                    sliderType: "standard",
+                    jsFileLocation: "js/plugins/revslider/public/assets/js/",
+                    sliderLayout: "auto",
+                    dottedOverlay: "none",
+                    delay: 7000,
+                    navigation: {
+                        keyboardNavigation: "off",
+                        keyboard_direction: "horizontal",
+                        mouseScrollNavigation: "off",
+                        mouseScrollReverse: "default",
+                        onHoverStop: "off",
+                        touch: {
+                            touchenabled: "on",
+                            touchOnDesktop: "off",
+                            swipe_threshold: 75,
+                            swipe_min_touches: 1,
+                            swipe_direction: "horizontal",
+                            drag_block_vertical: false
+                        }
+                    },
+                    visibilityLevels: [1240, 1024, 778, 480],
+                    gridwidth: 1425,
+                    gridheight: 600,
+                    lazyType: "none",
+                    shadow: 0,
+                    spinner: "spinner3",
+                    stopLoop: "off",
+                    stopAfterLoops: -1,
+                    stopAtSlide: -1,
+                    shuffle: "off",
+                    autoHeight: "off",
+                    disableProgressBar: "on",
+                    hideThumbsOnMobile: "off",
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    debugMode: false,
+                    fallbacks: {
+                        simplifyAll: "off",
+                        nextSlideOnWindowFocus: "off",
+                        disableFocusListener: false,
+                    }
+                });
+            }
+
+        }); /*ready*/
+    </script>
+    <script>
+        var htmlDivCss = '  #rev_slider_1_1_wrapper .tp-loader.spinner3 div { background-color: #444444 !important; } ';
+        var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+        if (htmlDiv) {
+            htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+        } else {
+            var htmlDiv = document.createElement('div');
+            htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+            document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+        }
+    </script>
 
 
 </body>
