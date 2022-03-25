@@ -209,6 +209,10 @@ hr.faded, hr.faded:before {
 	font-weight: 900;
 }
 
+.division {
+	padding: 35px;
+}
+
 .small_line
 {
 	height: 1px;

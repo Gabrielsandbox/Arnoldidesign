@@ -4,6 +4,12 @@
 *
 **/
 @media only screen and (min-width: 1100px) {
+	.elementmargin22 {
+		margin-left: 23% ;
+	}
+	.elementmargin {
+		margin-left: 10%;
+	}
 	#menu_wrapper
 	{
 		max-width: 1425px;
