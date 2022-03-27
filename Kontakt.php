@@ -22,8 +22,7 @@ $email = $_POST['email'];
 $phone = $_POST['phone'];
 $Nachricht = $_POST['Nachricht'];
 
-$formcontent="Ein neuer Kunde hat über die Website Kontakt aufgenommen.
- \n \n Anlass ihrer feier: $causeofparty \n \n Datum ihrer feier: $dateofparty \n \n Personenanzahl: $Personenanzahl \n \n Vor-und nachname: $name \n \n Strasse: \n \n PLZ: $plz \n \n ORT: $ort \n \n E-mail: $email \n \n Telefon: $phone \n \n Nachricht: $Nachricht ";
+$formcontent="Ein neuer Kunde hat über die Website Kontakt aufgenommen. \n \n Anlass ihrer feier: $causeofparty \n \n Datum ihrer feier: $dateofparty \n \n Personenanzahl: $Personenanzahl \n \n Vor-und nachname: $name \n \n Strasse: \n \n PLZ: $plz \n \n ORT: $ort \n \n E-mail: $email \n \n Telefon: $phone \n \n Nachricht: $Nachricht ";
 
 
 $recipient = "gabrielmarinhoworks@gmail.com";
