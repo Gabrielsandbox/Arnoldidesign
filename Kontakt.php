@@ -1,15 +1,35 @@
 <?php
+causeofparty
+dateofparty
+Personenanzahl
+name
+address (strasse)
+plz
+ort
+email
+phone
+Nachricht
 
-$name = $_POST['name']; // For some reason it is not getting the name
-$email = $_POST['Email'];
-$phone = $_POST['Telefon'];
-$subject = $_POST['Betreff'];
-$message = $_POST['Nachricht']; // Nachricht
-$formcontent="Ein neuer Kunde hat über die Website Kontakt aufgenommen. \n \n Email: $email \n \n Betreff: $subject \n \n Telefon: $phone \n \n Nachricht: $message \n \n ";
-$recipient = "info@kappelundpartner.de"; // Switch for info@kappelundpartner.com
+
+$causeofparty = $_POST['causeofparty']; // For some reason it is not getting the name
+$dateofparty = $_POST['dateofparty'];
+$Personenanzahl = $_POST['Personenanzahl'];
+$name = $_POST['name'];
+$address = $_POST['address'];
+$plz = $_POST['plz'];
+$ort = $_POST['ort'];
+$email = $_POST['email'];
+$phone = $_POST['phone'];
+$Nachricht = $_POST['Nachricht'];
+
+$formcontent="Ein neuer Kunde hat über die Website Kontakt aufgenommen.
+ \n \n Anlass ihrer feier: $causeofparty \n \n Datum ihrer feier: $dateofparty \n \n Personenanzahl: $Personenanzahl \n \n Vor-und nachname: $name \n \n Strasse: \n \n PLZ: $plz \n \n ORT: $ort \n \n E-mail: $email \n \n Telefon: $phone \n \n Nachricht: $Nachricht ";
+
+
+$recipient = "gabrielmarinhoworks@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader);
-header("Location: https://kappelundpartner.de/kontaktredirection.html", TRUE, 301); // Make proper return page
+header("Location: https://google.com", TRUE, 301); // Make proper return page
 
 function IsInjected($str)
 {
